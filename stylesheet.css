@@ -4,6 +4,30 @@
     box-sizing: border-box;
   }
 
+
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+
+
 header {
     margin: 0 auto;
     margin-top: 2%;
@@ -16,21 +40,52 @@ header {
 }
 
 #cv {
-
+    background-color: #3b434a;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    color: white;
 }
 
-#3b434a
+#cv a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+
+#cv a:hover {
+background-color: white;
+color: black;
+}
+
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 48;
+  color: white;
+}
+
+
 
 content {
     width: 100%;
     padding-top: 25px
 }
 
-intro { 
+#intro { 
     height: 5%;
-    padding: 20px;
+    padding: 40px;
     display: inline-block;
 }
+
+
 
 
 
