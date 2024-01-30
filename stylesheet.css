@@ -50,10 +50,14 @@ header {
 
 .darkblock {
     background-color: #3b434a;
-    width: 100%;
+    width: 41%;
     text-align: center;
     padding: 40px;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 30px;
 }
 
 .darkblock a {
@@ -70,14 +74,25 @@ background-color: white;
 color: black;
 }
 
+.abtmeblk {
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
 
 .lightblock {
     background-color: white;
-    width: 100%;
     text-align: center;
     padding: 40px;
     color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .lightblock a {
@@ -176,7 +191,7 @@ color: white;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    filter: grayscale(100%);
+    
 
 }
 
@@ -193,4 +208,77 @@ color: white;
     background-color: white;
     font-weight: bold;
     padding: 2px;
+}
+
+
+
+
+
+#topblockcontainer {
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 59%;
+    display: flex;
+}
+
+.blockl {
+    float: left;
+    background-color: #74beff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 23px;
+    width: 45%;
+    margin: 10px;
+}
+
+
+.blockr {
+    float: right;
+    background-color: #ffbd72;
+    font-family: 'Courier New', Courier, monospace;
+    width: 45%;
+    margin: 10px;
+    padding: 23px;
+
+    
+}
+
+.blockr a {
+    text-decoration: none;
+}
+
+.blockl {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 999px) {
+    .blockl {
+
+    }
+
+    .blockr {
+        
+    }
+
+    #topblockcontainer {
+        width: 95%;
+        padding: 2px;
+    }
+
+    .darkblock {
+        width: 89%;
+    }
+    
+    .lightblock {
+        width: 70%;
+    }
 }
