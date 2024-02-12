@@ -256,7 +256,9 @@ a:hover {
     text-decoration: underline;
 }
 
-
+#mobnav {
+    display: none;
+}
 
 
 
@@ -280,5 +282,30 @@ a:hover {
     
     .lightblock {
         width: 70%;
+    }
+
+    #achievements {
+        
+        font-size: 19px;
+        background-color: white;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+    #skills {
+        font-size: 19px;
+        background-color: white;
+        padding: 2px;
+        border-radius: 5px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    #mobnav {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
